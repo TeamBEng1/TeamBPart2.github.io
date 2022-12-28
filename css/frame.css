@@ -1,6 +1,7 @@
 
 
 html,
+
 body {
   margin: 0;
   padding: 0;
@@ -12,12 +13,81 @@ a {
   outline: none;
   cursor: pointer;
 }
+
+.navbar {
+  overflow: hidden;
+  background-color: #212121;
+}
+
+.navbar a {
+  float: left;
+  font-size: 17px;
+  color: white;
+  text-align: center;
+  padding-top: 2%;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding-top: 27%;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 100;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.generic a {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: bolder;
+  vertical-align: middle;
+
+}
+
+
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
+
 .column {
   float: left;
   width: 33.33%;
@@ -57,14 +127,6 @@ hr {
   margin: 0 0 10px 0;
 }
 
-.menu-container {
-  z-index: 2;
-  position: relative;
-  width: 100%;
-  background-color: #212121;
-  min-width: 300px;
-}
-
 .menu {
   position: relative;
   margin: 0 auto;
@@ -81,54 +143,6 @@ hr {
   color: rgb(255, 255, 255) !important;
   opacity: 1 !important;
   font-weight: 700 !important;
-}
-
-.logo {
-  margin-left: 20px;
-}
-
-.logo a {
-  color: rgba(255, 255, 255, 0.8);
-  font-family: 'Open Sans Condensed', Helvetica, Arial, sans-serif;
-  font-size: 30px;
-  text-decoration: none;
-  font-weight: 700;
-  flex: 1 auto;
-}
-
-.menu-button {
-  width: 40px;
-  height: 40px;
-  display: none;
-  cursor: pointer;
-  margin-right: 20px;
-}
-
-.menu-button img {
-  width: 30px;
-  height: 30px;
-}
-
-.menu-items a {
-  color: rgba(255, 255, 255, 0.8);
-  text-decoration: none;
-  font-weight: 400;
-  font-size: 18px;
-  flex: 1 auto;
-  transition: opacity 0.1s ease-in-out;
-  -moz-transition: opacity 0.1s ease-in-out;
-  -webkit-transition: opacity 0.1s ease-in-out;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-  white-space: nowrap;
-}
-
-.menu-items a:not(:last-child) {
-  margin-right: 25px;
-}
-
-.menu-items a:hover {
-  color: rgb(255, 255, 255);
-  opacity: 1;
 }
 
 .content-container {
@@ -148,20 +162,6 @@ hr {
   max-width: 900px;
 }
 
-.content p a {
-  text-decoration: none;
-  color: #005cbf;
-}
-
-.content p a:hover {
-  text-decoration: underline;
-}
-
-.content-table {
-  padding: 20px 10px;
-  width: 100%;
-  margin: 0;
-}
 
 .flex-column {
   display: flex;
@@ -201,26 +201,6 @@ hr {
   align-items: center;
   align-content: stretch;
   box-sizing: border-box;
-}
-
-.flex-item-stretch {
-  flex: 1 auto;
-}
-
-.flex-item-stretch-2 {
-  flex: 1 auto;
-}
-
-.flex-item-stretch-3 {
-  flex: 1 auto;
-}
-
-.flex-item-stretch-4 {
-  flex: 1 auto;
-}
-
-.flex-item-stretch-5 {
-  flex: 1 auto;
 }
 
 .flex-item {
@@ -265,34 +245,6 @@ hr {
   margin: 15px 0;
 }
 
-.image img,
-.image video {
-  width: 100%;
-  height: auto;
-  box-sizing: border-box;
-  display: table-cell;
-  overflow: hidden;
-  border-radius: 2px;
-}
-
-.adaptive-image {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.image-wrap-text {
-  float: left;
-  margin: 5px 40px 25px 0;
-}
-
-.image-caption {
-  width: 100%;
-  text-align: center;
-  margin-top: -10px;
-  margin-bottom: 10px;
-}
-
 .max-width-400 {
   max-width: 400px;
 }
@@ -301,15 +253,6 @@ hr {
   max-width: 140px;
 }
 
-
-.noselect {
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
 
 .center-align-content {
   display: flex;
@@ -343,22 +286,3 @@ hr {
   text-align: center;
 }
 
-.iframe-container {
-  position: absolute;
-  top: 61px;
-  bottom: 0;
-  left: 0;
-  height: auto;
-  width: 100%;
-  min-width: 300px;
-}
-
-.iframe {
-  border: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.custom-text-info a:hover {
-  color: #007082;
-}
