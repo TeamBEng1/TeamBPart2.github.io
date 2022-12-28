@@ -22,7 +22,7 @@ a {
 .navbar a {
   float: left;
   font-size: 17px;
-  color: white;
+  color: #dfd8d8;
   text-align: center;
   padding-top: 2%;
   text-decoration: none;
@@ -38,7 +38,7 @@ a {
   font-size: 17px;  
   border: none;
   outline: none;
-  color: white;
+  color: #dfd8d8;
   padding-top: 27%;
   background-color: inherit;
   font-family: inherit;
@@ -74,7 +74,7 @@ a {
 .generic a {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: 30px;
-  color: #ffffff;
+  color: #dfd8d8;
   font-weight: bolder;
   vertical-align: middle;
 
@@ -94,11 +94,6 @@ a {
   padding: 5px;
 }
 
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
 
 h2 {
   font-size: 24px;
@@ -125,24 +120,6 @@ hr {
   height: 1px;
   background: #333;
   margin: 0 0 10px 0;
-}
-
-.menu {
-  position: relative;
-  margin: 0 auto;
-  max-width: 900px;
-}
-
-.menu-table {
-  padding: 10px 10px;
-  width: 100%;
-  margin: 0;
-}
-
-.menu-highlight {
-  color: rgb(255, 255, 255) !important;
-  opacity: 1 !important;
-  font-weight: 700 !important;
 }
 
 .content-container {
