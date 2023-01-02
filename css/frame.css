@@ -22,7 +22,7 @@ a {
 .navbar a {
   float: left;
   font-size: 17px;
-  color: #dfd8d8;
+  color: #ffffff;
   text-align: center;
   padding-top: 2%;
   text-decoration: none;
@@ -38,7 +38,7 @@ a {
   font-size: 17px;  
   border: none;
   outline: none;
-  color: #dfd8d8;
+  color: #ffffff;
   padding-top: 27%;
   background-color: inherit;
   font-family: inherit;
@@ -48,7 +48,7 @@ a {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: #ffffff;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 100;
@@ -74,7 +74,7 @@ a {
 .generic a {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: 30px;
-  color: #dfd8d8;
+  color: #ffffff;
   font-weight: bolder;
   vertical-align: middle;
 
