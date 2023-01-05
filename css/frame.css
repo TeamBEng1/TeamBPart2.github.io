@@ -80,12 +80,18 @@ a {
 
 }
 
-
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 40%;
+}
+
+.middle {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
 
 .column {
