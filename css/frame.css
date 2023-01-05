@@ -116,10 +116,10 @@ ul {
 }
 
 hr {
-  border: 0;
+  border: none;
   height: 1px;
   background: #333;
-  margin: 0 0 10px 0;
+  width: 100%
 }
 
 .content-container {
