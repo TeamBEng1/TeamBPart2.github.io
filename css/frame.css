@@ -1,5 +1,3 @@
-
-
 html,
 
 body {
@@ -256,15 +254,11 @@ hr {
 }
 
 .text-small {
-  font-size: 12px;
+  font-size: 10px;
 }
 
 .text-italic {
   font-style: italic;
-}
-
-.text-justify {
-  text-align: justify;
 }
 
 .text-center {
