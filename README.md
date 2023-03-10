@@ -1,1 +1,2 @@
-# https://github.com/TeamBEng1/TeamBPart2.github.io
+The actual site can be found at:
+https://teambeng1.github.io/TeamBPart2.github.io/
